@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RegistrationForm">
+  <grid id="27dc6" binding="registerPanel" layout-manager="GridLayoutManager" row-count="18" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="15" left="15" bottom="15" right="15"/>
+    <constraints>
+      <xy x="20" y="20" width="543" height="461"/>
+    </constraints>
+    <properties>
+      <background color="-13330213"/>
+      <font name="Comic Sans MS" size="18" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="87d43" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="18" style="1"/>
+          <text value="Email:"/>
+        </properties>
+      </component>
+      <component id="db272" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="18" style="1"/>
+          <text value="Dirección:"/>
+        </properties>
+      </component>
+      <component id="e30da" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="18" style="1"/>
+          <text value="Nombre:"/>
+        </properties>
+      </component>
+      <component id="5398" class="javax.swing.JTextField" binding="tfName">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="3d7b8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="18" style="1"/>
+          <text value="Teléfono:"/>
+        </properties>
+      </component>
+      <component id="e1d22" class="javax.swing.JTextField" binding="tfPhone">
+        <constraints>
+          <grid row="11" column="1" row-span="2" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="ef33f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="18" style="1"/>
+          <text value="Contraseña:"/>
+        </properties>
+      </component>
+      <component id="1aed8" class="javax.swing.JPasswordField" binding="pfPassword">
+        <constraints>
+          <grid row="4" column="1" row-span="2" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="76dc3" class="javax.swing.JTextField" binding="tfAddress">
+        <constraints>
+          <grid row="13" column="1" row-span="3" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="20326" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="18" style="1"/>
+          <text value="Repita Contraseña:"/>
+        </properties>
+      </component>
+      <component id="50f9b" class="javax.swing.JPasswordField" binding="pfRepeatPassword">
+        <constraints>
+          <grid row="6" column="1" row-span="2" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="c803" class="javax.swing.JTextField" binding="tfEmail">
+        <constraints>
+          <grid row="8" column="1" row-span="3" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Comic Sans MS" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="c53cb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="3" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Zilla Slab" size="48" style="1"/>
+          <text value="Registro"/>
+        </properties>
+      </component>
+      <component id="d44df" class="javax.swing.JButton" binding="btnCancel">
+        <constraints>
+          <grid row="17" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1618884"/>
+          <font name="Comic Sans MS" size="18" style="1"/>
+          <text value="Cancelar"/>
+        </properties>
+      </component>
+      <component id="2fa19" class="javax.swing.JButton" binding="btnRegister">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13710223"/>
+          <font name="Comic Sans MS" size="18" style="1"/>
+          <text value="Registrar"/>
+        </properties>
+      </component>
+      <component id="36cc1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="perfil.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="22ea9">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
